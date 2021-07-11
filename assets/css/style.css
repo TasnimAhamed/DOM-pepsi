@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --blue:#0062be;
+    --red:#e60c2c;
+    --black:#1e1e1e;
+    --white:#fff;
+}
+
+/*Header Section Start*/
+.header{
+    background: var(--blue);
+    padding-top: 18px;
+    padding-bottom: 20px;
+    min-height: 100vh;
+}
+
+/*Nav Section Start*/
+.logo img{
+    width:75px;
+}
+.navbar ul li:not(:last-child){
+    margin-right: 32px;
+}
+.navbar ul li a{
+    font-size:20px;
+    color: var(--white);
+}
+.navbar-toggler{
+    border: 3px solid #ffffff;
+    border-radius: 7px;
+    padding:2px 6px;
+    outline:0;
+}
+.navbar-toggler:focus{
+    outline:0;
+    box-shadow: none;
+}
+.navbar-toggler svg{
+    fill: var(--white);
+    margin-top: 5px;
+}
+/*Nav Section End*/
+
+.banner-content{
+    padding-top: 100px;
+}
+
+.pepsi-content h2,
+.pepsi-content h1{
+    color: var(--white);
+    font-weight:700;
+    text-transform: uppercase;
+}
+.pepsi-content h2{
+    font-size:90px;
+    line-height:1.1;
+    margin-bottom: 0;
+}
+.pepsi-content h1{
+    font-size:150px;
+    line-height:1.1;
+}
+.pepsi-content p{
+    margin-top: 15px;
+    color: var(--white);
+    font-size: 18px;
+    font-weight:400;
+    line-height:32px;
+    letter-spacing:1px;
+}
+.pepsi-btn{
+    padding:12px 24px;
+    margin-top: 25px;
+    background-color: var(--white);
+    border-radius: 30px;
+    font-size:22px;
+}
+.variant-img{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.variant-img img{
+    width:75px;
+    transition: 0.4s ease-in-out;
+}
+.variant-img img:not(:last-child){
+    margin-right: 75px;
+}
+.variant-img img:hover{
+    transform:translateY(-20px)
+}
+/*Header Section End*/

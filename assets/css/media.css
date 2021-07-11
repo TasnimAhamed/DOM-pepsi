@@ -1,0 +1,103 @@
+@media (min-width:320px) and (max-width:575px) {
+    .banner-content {
+        padding-top: 60px;
+    }
+    .pepsi-content h2{
+        font-size:40px;
+    }
+    .pepsi-content h1{
+        font-size:60px;
+    }
+    .logo img {
+        width: 65px;
+    }
+    .pepsi-content p {
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0px; 
+    }
+    .pepsi-img img{
+        margin-top: 75px;
+        width:200px;
+    }
+    .variant-img img:not(:last-child) {
+        margin-right: px;
+    }
+    .pepsi-btn {
+        font-size: 18px;
+    }
+}
+@media (min-width:576px) and (max-width:767px) {
+    .banner-content {
+        padding-top: 60px;
+    }
+    .pepsi-content h2{
+        font-size:55px;
+    }
+    .pepsi-content h1{
+        font-size:80px;
+    }
+    .logo img {
+        width: 65px;
+    }
+    .pepsi-content p {
+        font-size: 17px;
+        line-height: 30px;
+        letter-spacing: 0px; 
+    }
+    .pepsi-img img{
+        margin-top: 75px;
+        width:200px;
+    }
+    .pepsi-btn {
+        font-size: 20px;
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+    .banner-content {
+        padding-top: 60px;
+    }
+    .pepsi-content h2{
+        font-size:65px;
+    }
+    .pepsi-content h1{
+        font-size:80px;
+    }
+    .logo img {
+        width: 65px;
+    }
+    .pepsi-content p {
+        font-size: 17px;
+        line-height: 30px;
+        letter-spacing: 0px; 
+    }
+    .variant-img {
+        padding-top: 120px;
+    }
+    .pepsi-img img{
+        margin-top: 75px;
+        width:200px;
+    }
+    .pepsi-btn {
+        font-size: 20px;
+    }
+}
+@media (min-width:992px) and (max-width:1199px) {
+    .pepsi-content h2{
+        font-size:65px;
+    }
+    .pepsi-content h1{
+        font-size:100px;
+    }
+}
+@media (min-width:1200px) and (max-width:1399px) {
+    .pepsi-content h2{
+        font-size:80px;
+        line-height:1.1;
+        margin-bottom: 0;
+    }
+    .pepsi-content h1{
+        font-size:120px;
+        line-height:1.1;
+    }
+}
